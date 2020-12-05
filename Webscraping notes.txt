@@ -1,0 +1,8 @@
+Creating a spider
+scrapy genspider countries www.worldometers.info/world-population/population-by-country
+1. Remove the ending slash always, and remove the https:// 
+
+Now in the spiders folder in the created name.py file
+1. in allowed_domains never keep https://
+2. in start_urls keep the https or http whatever is there in original website
+3. Don't change the names of default vars
